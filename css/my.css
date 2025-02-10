@@ -1,0 +1,80 @@
+.data-container {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: 2px dotted #bbb; /* Dotted border */
+  
+  border-radius: 15px; /* Rounded border */
+  margin-left: 50px;
+  margin-top: 20px;
+  max-width: 800px;
+  padding: 19px 16px;
+  font-weight: bold;
+}
+
+form.sear input[type=text] {
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 200px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 40%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.sear button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  margin-top: 20px;
+  background: #1b2a36;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.sear button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.sear::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+input{
+  padding-right: 70px;
+}
+
+.edit-card {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  margin-top: 80px ;
+  padding: 70px;
+  margin-left: 100px;
+  width: 60%; /* Set your desired width */
+overflow-y: auto;
+max-height: 500px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.edit-card label {
+  margin-bottom: 10px; /* Adjust spacing between label and input */
+}
+.edit-card input[type="text"] {
+  width: 100%; /* Makes the input take the full width of the card */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.close {
+  font-size: 45px;
+  font-weight: 600;
+}

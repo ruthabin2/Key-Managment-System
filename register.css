@@ -1,0 +1,71 @@
+.heading2{
+  background: #f6f7fe;
+  margin: -60px;
+  text-align: center;
+  color: #dc5050;
+  font-size: 19px;
+  margin-bottom: 10px;
+  padding: 40px;
+padding-top: 1px; 
+}
+
+
+.form_wrap.fullname,
+.form_wrap.select_box{
+  display: flex;
+   
+}
+
+.form_wrap.fullname .form_item,
+.form_wrap.select_box .form_item{
+  width: 50%;
+}
+
+.form_wrap.fullname .form_item:first-child,
+.form_wrap.select_box .form_item:first-child{
+  margin-right: 4%;
+}
+
+.wrapper .form_container .form_item label{
+  display: block;
+
+
+  margin-bottom: 5px;
+}
+
+
+.form_item input[type="text"] {
+  width: 140%; /* Makes the input take the full width of the card */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form_item input[type="text"]:focus{
+  border-color: #6271f0;
+}
+
+.btn input[type="submit"]{
+  width: 50%;
+  font-size: 16px;
+  letter-spacing: 1px;
+    background-color:#3f3e3e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  button[type="submit"]:hover {
+  background-color:  #3f3e3e;
+}
+      input[type="radio"] {
+  margin-right: 10px;
+}
+select#uname, #role {
+  font-size: 16px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
